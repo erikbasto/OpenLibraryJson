@@ -12,7 +12,7 @@
 		BF3A34611F5A5F9300B9447E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3A345F1F5A5F9300B9447E /* Main.storyboard */; };
 		BF3A34631F5A5F9300B9447E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3A34621F5A5F9300B9447E /* Assets.xcassets */; };
 		BF3A34661F5A5F9300B9447E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3A34641F5A5F9300B9447E /* LaunchScreen.storyboard */; };
-		BF3A346E1F5A610600B9447E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A346D1F5A610600B9447E /* Reachability.swift */; };
+		BF3A34701F5A806D00B9447E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A346F1F5A806D00B9447E /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		BF3A34621F5A5F9300B9447E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF3A34651F5A5F9300B9447E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF3A34671F5A5F9300B9447E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF3A346D1F5A610600B9447E /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = ../../../Semana1/PeticionOpenLibrary/PeticionOpenLibrary/Reachability.swift; sourceTree = "<group>"; };
+		BF3A346F1F5A806D00B9447E /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +56,13 @@
 		BF3A345A1F5A5F9300B9447E /* OpenLibraryJson */ = {
 			isa = PBXGroup;
 			children = (
-				BF3A346D1F5A610600B9447E /* Reachability.swift */,
 				BF3A345B1F5A5F9300B9447E /* AppDelegate.swift */,
 				BF3A345D1F5A5F9300B9447E /* ViewController.swift */,
 				BF3A345F1F5A5F9300B9447E /* Main.storyboard */,
 				BF3A34621F5A5F9300B9447E /* Assets.xcassets */,
 				BF3A34641F5A5F9300B9447E /* LaunchScreen.storyboard */,
 				BF3A34671F5A5F9300B9447E /* Info.plist */,
+				BF3A346F1F5A806D00B9447E /* Reachability.swift */,
 			);
 			path = OpenLibraryJson;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			files = (
 				BF3A345E1F5A5F9300B9447E /* ViewController.swift in Sources */,
 				BF3A345C1F5A5F9300B9447E /* AppDelegate.swift in Sources */,
-				BF3A346E1F5A610600B9447E /* Reachability.swift in Sources */,
+				BF3A34701F5A806D00B9447E /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +303,7 @@
 				BF3A346C1F5A5F9300B9447E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
